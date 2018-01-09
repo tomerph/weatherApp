@@ -17,15 +17,6 @@ class WeatherList extends Component{
 
 
 
-  // setSelected(city){
-  //   // this.props.selectedCity(city);
-  //   // let main = document.querySelector(".main-content")
-  //   //
-  //   // main.style.display = 'none';
-  //   // setTimeout(function(){
-  //   //  main.style.display = 'flex'; }, 0);
-  // }
-
   getCurrentWeather(city){
     this.props.fetchWeather(city);
 
